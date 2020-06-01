@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tic-Tac-Toe</title>
+   <script src='ttt.js'></script>
+</head>
+
+<body bgcolor='black'><center>
+<h2><font color='white'>Tic-Tac-Toe</font></h2>
+<code><font color=silver>Copyrights Diane</font></code><br><br>
+
+<table bgcolor='silver' border='1' bordercolor='gray' cellspacing='0' width='200' height='200'>
+   <tr>
+      <td align='center'>
+         <h4><span id='statutPartie'>C'est votre tour..</span></h4>
+   <table cellspacing='0' cellpadding='0'>
+    <tr>
+     <td><img id='box0_0' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box0_1' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box0_2' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+    </tr>
+    <tr>
+     <td><img id='box1_0' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box1_1' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box1_2' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+    </tr>
+    <tr>
+     <td><img id='box2_0' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box2_1' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+     <td><img id='box2_2' src='img/vide.jpg' onclick='placerSigne(this)'></td>
+    </tr>
+   </table>
+</td>
+</tr>
+</table>
+<br>
+<input id='bRecommencer' type=button style="display:none;" value="Recommencer" onclick='finPartie()'>
+
+</center>
+</body>
+</html>
